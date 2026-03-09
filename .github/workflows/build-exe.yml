@@ -28,7 +28,7 @@ jobs:
         pyinstaller --onefile --windowed snake_game.py
 
     - name: Upload EXE artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: snake-game-exe
         path: dist/snake_game.exe
